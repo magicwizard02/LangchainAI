@@ -4,4 +4,4 @@ openai
 faiss-cpu
 tiktoken
 setuptools
-unstructured
+unstructured[all-docs]
