@@ -117,14 +117,16 @@ with st.sidebar:
         type=["pdf", "txt", "docx"],
     )
 
+if not openai_api_key:
+    st.warning("Please enter your OpenAI API Key in the sidebar.")
+    st.stop()
+
 
 llm = ChatOpenAI(
         temperature=0.1,
         streaming=True,
         openai_api_key=openai_api_key,
-        callbacks=[
-            ChatCallbackHandler(),
-        ],
+        callbacks=[ChatCallbackHandler()],
     )
 
 
