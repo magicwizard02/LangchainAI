@@ -1,5 +1,6 @@
 env/
 .env
-solution_haiku.ipynb
-solution_movie.ipynb
-solution_emoji.ipynb
+haiku.ipynb
+movie.ipynb
+emoji.ipynb
+RAG_app.py

@@ -1,0 +1,8 @@
+streamlit
+langchain>=0.1.0
+langchain-community
+openai
+faiss-cpu
+tiktoken
+setuptools
+unstructured[all-docs]
