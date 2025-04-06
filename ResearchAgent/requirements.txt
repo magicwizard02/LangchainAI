@@ -1,1 +1,6 @@
 openai>=1.9.0
+streamlit
+langchain
+langchain-community
+beautifulsoup4
+requests
